@@ -33,27 +33,41 @@ many different systems available.</p>
 <a name="download"><h1>Download:</h1></a>
 
 <p>To download AdPlug, please go to the
-<a href="http://sourceforge.net/project/showfiles.php?group_id=28079">download page</a>.</p>
+<a
+href="http://sourceforge.net/project/showfiles.php?group_id=28079">download
+page</a>. Be sure to read the following download instructions for your
+architecture, at least once!</p>
 
 <h1>Download instructions:</h1>
 
-<p>On the download page, first locate your desired AdPlug module, then select the version, you like to download.
-There may be multiple file releases for your selected version. This is either just the same release packaged in
-different archive formats or the respective binary or source package. You can spot the right archive for you either
-by examining the filename or by looking at the following table, which gives an overview of the available modules and
-file releases.</p>
+<p>On the download page, first locate your desired AdPlug module, then
+select the version, you like to download.</p>
+
+<p>There may be multiple files released with your selected
+version. This is either just the same release packaged in different
+archive formats, the respective binary or source package or a
+specially packaged version of the binary or source package, for that
+particular architecture only! You can spot the right archive for you
+either by examining the filename or by looking at the following table,
+which gives an overview of the available modules and file
+releases.</p>
 
 <table>
 <tr><td><b>Module:</b></td><td><b>Description:</b></td></tr>
 <tr><td>AdPlug core library</td>
 <td><h2>AdPlug library source distribution for all architectures:</h2>
 
-<p>You need this only if you like to write your own AdPlug frontend or have to compile any of the available frontends.</p>
+<p>You need this only if you like to write your own AdPlug frontend or
+want/have to recompile any of the available frontends.</p>
 
 <p>The following file packages are available:</p>
 <ul>
 <li>adplug-*.tar.bz2 - bzip2 compressed source</li>
 <li>adplug-*.tar.gz - gzip compressed source</li>
+<li>adplg*s.zip - Stripped-down source version for DOS users only
+(PKZIP compressed)</li>
+<li>adplug*.zip - Precompiled binary (w/ i586 optimization) for DOS
+users (PKZIP compressed)</li>
 </ul>
 </td></tr>
 <tr><td>AdPlay/DOS</td>
@@ -139,16 +153,19 @@ anyway. As of now, the following formats are supported:</p>
 <li>A2M: AdLib Tracker 2 by subz3ro</li>
 <li>AMD: AMUSIC Adlib Tracker by Elyssis</li>
 <li>BAM: Bob's Adlib Music Format</li>
+<li>CFF: BoomTracker 4.0 by CUD</li>
 <li>CMF: Creative Music File Format by Creative Technology</li>
 <li>D00: EdLib by Vibrants</li>
 <li>DFM: Digital-FM by R.Verhaag</li>
+<li>DMO: Twin TrackPlayer by TwinTeam</li>
+<li>DTM: DeFy Adlib Tracker by DeFy</li>
 <li>HSC: HSC Adlib Composer by Hannes Seifert, HSC-Tracker by Electronic Rats</li>
 <li>HSP: HSC Packed by Number Six / Aegis Corp.</li>
 <li>IMF: Apogee IMF File Format</li>
 <li>KSM: Ken Silverman's Music Format</li>
 <li>LAA: LucasArts AdLib Audio File Format by LucasArts</li>
 <li>LDS: LOUDNESS Sound System <b>(preliminary)</b></li>
-<li>M&nbsp;&nbsp;: Origin AdLib Music Format</li>
+<li>M: Origin AdLib Music Format</li>
 <li>MAD: Mlat Adlib Tracker</li>
 <li>MID: MIDI Audio File Format</li>
 <li>MKJ: MKJamz by M \ K Productions <b>(preliminary)</b></li>
@@ -162,6 +179,7 @@ anyway. As of now, the following formats are supported:</p>
 <li>SCI: Sierra's AdLib Audio File Format</li>
 <li>SNG: SNGPlay by BUGSY of OBSESSION</li>
 <li>SNG: Faust Music Creator by FAUST</li>
+<li>SNG: Adlib Tracker 1.0 by TJ</li>
 <li>XAD: eXotic ADlib Format by Riven the Mage</li>
 <li>XMS: XMS-Tracker by MaDoKaN/E.S.G</li>
 </ul>

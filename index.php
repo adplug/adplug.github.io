@@ -41,13 +41,14 @@ anyway. As of now, the following formats are supported:</p>
 <li>D00: EdLib by Vibrants</li>
 <li>DFM: Digital-FM by R.Verhaag</li>
 <li>DMO: Twin TrackPlayer by TwinTeam</li>
+<li>DRO: DOSBox Raw OPL Format</li>
 <li>DTM: DeFy Adlib Tracker by DeFy</li>
 <li>HSC: HSC Adlib Composer by Hannes Seifert, HSC-Tracker by Electronic Rats</li>
 <li>HSP: HSC Packed by Number Six / Aegis Corp.</li>
 <li>IMF: Apogee IMF File Format</li>
 <li>KSM: Ken Silverman's Music Format</li>
 <li>LAA: LucasArts AdLib Audio File Format by LucasArts</li>
-<li>LDS: LOUDNESS Sound System <b>(preliminary)</b></li>
+<li>LDS: LOUDNESS Sound System</li>
 <li>M: Origin AdLib Music Format</li>
 <li>MAD: Mlat Adlib Tracker</li>
 <li>MID: MIDI Audio File Format</li>
@@ -65,6 +66,7 @@ anyway. As of now, the following formats are supported:</p>
 <li>SNG: Adlib Tracker 1.0 by TJ</li>
 <li>XAD: eXotic ADlib Format by Riven the Mage</li>
 <li>XMS: XMS-Tracker by MaDoKaN/E.S.G</li>
+<li>XSM: eXtra Simple Music by Davey W Taylor</li>
 </ul>
 
 <p>Not all formats may be implemented on all platforms. This depends mainly on compiler

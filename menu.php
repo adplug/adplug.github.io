@@ -11,9 +11,9 @@
 <center>
 <tt>Newest releases:</tt>
 <table class="small" width="100%">
-<tr><td>Core library</td><td align=right><b>1.4.1</b></td></tr>
-<tr><td>AdPlug/Winamp</td><td align=right><b>1.5</b></td></tr>
-<tr><td>AdPlay/DOS</td><td align=right><b>1.4a</b></td></tr>
+<tr><td>Core library</td><td align=right><b>1.5</b></td></tr>
+<tr><td>AdPlug/Winamp</td><td align=right><b>1.6</b></td></tr>
+<tr><td>AdPlay/DOS</td><td align=right><b>1.5</b></td></tr>
 <tr><td>AdPlay/UNIX</td><td align=right><b>1.3</b></td></tr>
 <tr><td>AdPlug/XMMS</td><td align=right><b>1.1</b></td></tr>
 </table>

@@ -21,6 +21,12 @@ architecture, at least once!</p>
 <tr><td>
 <h1>Download instructions:</h1>
 
+<h2 style="color:red">ATTENTION: Important update to the Winamp input
+plugin release system!</h2>
+
+<p style="color:red">All changes to these instructions are designated
+in a red font (like this paragraph). Be sure to read them!</p>
+
 <p>On the download page, first locate your desired AdPlug module, then
 select the version, you like to download.</p>
 
@@ -54,8 +60,9 @@ want/have to recompile any of the available frontends.</p>
 <tr><td>AdPlay/DOS</td>
 <td><h2>AdPlay/DOS for MS-DOS:</h2>
 
-<p>AdPlay/DOS is AdPlug's MS-DOS based frontend. Sporting an exclusively programmed, highly configurable
-textmode interface, it provides a convenient playback experience.</p>
+<p>AdPlay/DOS is AdPlug's MS-DOS based frontend. Sporting an
+exclusively programmed, highly configurable textmode interface, it
+provides a convenient playback experience.</p>
 
 <p>The following file packages are available:</p>
 <ul>
@@ -86,6 +93,20 @@ kinds of UNIX flavours.</p>
 <p>The AdPlug Winamp plugin was the first available frontend for AdPlug and right now, it is the most
 advanced frontend of them all. If you need more information about Winamp, please go to
 <a href="http://www.winamp.com">www.winamp.com</a>.</p>
+
+<p style="color:red">Since version 1.6 of the plugin, no binary
+versions are distributed through SourceForge's File Release System!
+This is because binary versions are now compiled including the latest
+OPL2 emulator from the MAME distribution for the best emulation
+quality. These later versions bear a non OSI compliant license and
+thus cannot be distributed through SourceForge.</p>
+
+<p style="color:red">Another website has been created however, where
+these binary versions can be downloaded, until the license issues have
+been resolved. If you want the binary versions, please go to:</p>
+
+<a href="http://www.informatik.uni-oldenburg.de/~dyna/adplug/">
+http://www.informatik.uni-oldenburg.de/~dyna/adplug/</a>
 
 <p>The following file packages are available:</p>
 <ul>

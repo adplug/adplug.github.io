@@ -1,0 +1,22 @@
+files/MacsOpera.zip
+  D  M
+.CMF
+MacsOpera
+<p>I've attached two games that use CMF files (Stone Age and Dimo's Quest). I
+unpacked fxdriver.exe and viewed it, and it appears that it also reads CIF
+files (of which I don't have any). The credits for Stone Age say the music
+was created with something called "MacsOpera".</p>
+
+<p>I've also attached a file that documents as much as I can determine about
+the CMF format. A program called File Monitor helped me here (see its output
+in FM_log.zip). With your experience you could probably work out the gaps -
+I imagine they're similar to other Adlib tracker formats.</p>
+
+<p>You're under no obligation to make a player for it. I just think it would be
+cool to bring back a tracker format from the dead.</p>
+
+<p>I don't know how much use the fxdriver.exe file would be to you in figuring
+out the problem. An idea I had is to record a tune into RAW format and
+analyse that. I've attached Stone Age RAW files if you need them (although I
+may have clipped off some important stuff from the beginning of them during
+editing).</p>

@@ -1,0 +1,12 @@
+files/AdlibTracker10.zip
+A DE M
+.SNG
+Adlib Tracker 1.0
+<p>Recently I ran across another delightful format which makes use of
+the .SNG extension. The tracker is called simply, "Adlib Tracker". Its
+distribution package came with little documentation or related
+files. Upon contacting its creator (Tjeerd Sietsma), I received the
+specifications for the format.</p>
+
+<p>Attached, please find "Adlib Tracker", sample song, sample
+instrument bank, docs, specifications.</p>

@@ -1,0 +1,19 @@
+files/EMSMusicSystem.zip
+    PMS
+.EMS
+E.M.S. Music System
+<p>I have here the sources + docs for Sean Connolly's .EMS adlib music
+format. The songs are stored in ASM (seperately) as are the player
+routines. What I would suggest is that you compile the musics to .EMS
+format and then work the player into AdPlug.</p>
+
+<p>I know it may be a bit of work, but I would certainly appreciate it
+if you took this format into strong consideration
+regardless. Mr. Connolly based the tunes (as you will see) on C=64
+tunes, and he still upholds support for this format, meaning more
+musics should be available before too long.</p>
+
+<p>If it will be too much work to implement, no problem. I just
+thought it would be real neat to see AdPlug support the .EMS music
+once it was compiled (as the original music was distributed compiled
+w/player built-in).</p>

@@ -1,0 +1,8 @@
+files/FMMusicToolkit11.zip
+    P S
+.SRC
+FM Music Toolkit 1.1
+<p>I have dug up yet another adlib music format and now am giving you
+the DOS-based player with full source code. This is the .SRC format -
+modeled after the .ROL format. Would be a goody format for AdPlug and
+AdPlay - so, let me know if you have any luck with the code.</p>

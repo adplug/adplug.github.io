@@ -1,0 +1,6 @@
+files/MusicMaker.zip
+    PMS
+.MUS
+Music Maker
+This time, we have "Music Maker". It comes with compiled player,
+Qbasic source and sample music. Another great find, I think.

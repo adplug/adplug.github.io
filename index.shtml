@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>AdPlug - A free AdLib sound player library</title>
+<style type="text/css">
+<!--#include virtual="default.css" -->
+</style>
+</head>
+
+<body>
+<!--#include virtual="header.shtml" -->
+<table class="page">
+
+<tr><td>
+<h1>Description:</h1>
+<p>AdPlug is a free, cross-platform, hardware independent AdLib sound player library, mainly written in C++ and
+released under the LGPL. AdPlug plays sound data, originally created for the AdLib (OPL2) audio board, directly
+from its original format on top of an OPL2 emulator or by using the real hardware. No OPL chip is required for
+playback.</p>
+
+<p>AdPlug itself is just the backend to many different audio player frontends, which are also being developed
+here. There are plugins for popular audio players, like Winamp and XMMS, as well as stand-alone players for
+many different systems available or in development.</p>
+</td></tr>
+
+<tr><td>
+<a name="news"><h1>News:</h1></a>
+<!--#include virtual="news.html" -->
+</td></tr>
+
+<tr><td>
+<a name="download"><h1>Download:</h1></a>
+
+<p>To download AdPlug, please go to the
+<a href="http://sourceforge.net/project/showfiles.php?group_id=28079">download page</a>.</p>
+
+<h1>Download instructions:</h1>
+
+<p>On the download page, first locate your desired AdPlug module, then select the version, you like to download.
+There may be multiple file releases for your selected version. This is either just the same release packaged in
+different archive formats or the respective binary or source package. You can spot the right archive for you either
+by examining the filename or by looking at the following table, which gives an overview of the available modules and
+file releases.</p>
+
+<table>
+<tr><td><b>Module:</b></td><td><b>Description:</b></td></tr>
+<tr><td>adplug</td>
+<td><h2>AdPlug library source distribution for all architectures:</h2>
+
+<p>You need this only if you like to write your own AdPlug frontend or have to compile any of the available frontends.</p>
+
+<p>The following file packages are available:</p>
+<ul>
+<li>adplug-*.tar.bz2 - bzip2 compressed source</li>
+<li>adplug-*.tar.gz - gzip compressed source</li>
+</ul>
+</td></tr>
+<tr><td>dos</td>
+<td><h2>AdPlay/DOS for MS-DOS:</h2>
+
+<p>AdPlay/DOS is AdPlug's MS-DOS based frontend. Sporting an exclusively programmed, highly configurable
+textmode interface, it provides a convenient playback experience.</p>
+
+<p>The following file packages are available:</p>
+<ul>
+<li>adplay*.zip - PKZIP compressed binary</li>
+<li>adply*s.zip - PKZIP compressed source</li>
+</ul>
+</td></tr>
+<tr><td>linux</td>
+<td><h2>AdPlay/UNIX for UNIX compatible architectures:</h2>
+
+<p>AdPlay/UNIX is a classic UNIX console frontend with all the usual bells and whistles. It is proven to
+work well under the following architectures:</p>
+
+<ul>
+<li>Debian GNU/Linux 2.2 (potato)</li>
+<li>Debian GNU/Linux 3.0 (woody)</li>
+<li>Red Hat Linux 7.1 (seawolf)</li>
+<li>FreeBSD 4.6</li>
+</ul>
+
+<p>The following file packages are available:</p>
+<ul>
+<li>adplay-*.tar.bz2 - bzip2 compressed source</li>
+<li>adplay-*.tar.gz - gzip compressed source</li>
+</ul>
+</td></tr>
+<tr><td>winamp</td>
+<td><h2>AdPlug Winamp2 input plugin:</h2>
+
+<p>The AdPlug Winamp2 plugin was the first available frontend for AdPlug and right now, it is the most
+advanced frontend of them all. If you need more information about Winamp, please go to
+<a href="http://www.winamp.com">www.winamp.com</a>.</p>
+
+<p>The following file packages are available:</p>
+<ul>
+<li>in_adlib-*.zip - PKZIP compressed binary</li>
+<li>in_adlib-*.exe - Win32 self-installing binary</li>
+<li>in_adlib-*_source.zip - PKZIP compressed source</li>
+</ul>
+</td></tr>
+</table>
+</td></tr>
+
+<tr><td>
+<a name="extras"><h1>Extras:</h1></a>
+
+<p>Following are some extra packages, you may find useful when using AdPlug.</p>
+
+<table>
+<tr><td><b>Package:</b></td><td><b>Description:</b></td></tr>
+<tr><td><a href="files/sb16switch.zip">SB FM Switch</a></td>
+<td>A workaround for Sound Blaster users, who can't get the real OPL2 output with the AdPlug Winamp2 input
+plugin to work. This is a known problem with the Creative FM driver. This workaround is provided by
+Zbigniew Luszpinski.</td></tr>
+<tr><td><a href="files/examples.zip">Example Tunes</a></td>
+<td>Some packaged example tunes by various composers to demonstrate AdPlug's capabilities. The copyright
+of the included modules relies to their corresponding authors.</td></tr>
+</table>
+</td></tr>
+
+<tr><td>
+<h1>Supported formats:</h1>
+<p>AdPlug implements unique file replayers for each supported audio format in order to
+achieve the best possible replay quality. Players marked as "preliminary" aren't considered
+final by the author and may contain many replay issues, but are included for testing purposes
+anyway. As of now, the following formats are supported:</p>
+
+<ul>
+<li>A2M: AdLib Tracker 2 by subz3ro</li>
+<li>AMD: AMUSIC Adlib Tracker by Elyssis</li>
+<li>BAM: Bob's Adlib Music Format</li>
+<li>CMF: Creative Music File Format by Creative Technology</li>
+<li>D00: EdLib by Vibrants</li>
+<li>DFM: Digital-FM by R.Verhaag</li>
+<li>HSC: HSC Adlib Composer by Hannes Seifert, HSC-Tracker by Electronic Rats</li>
+<li>HSP: HSC Packed by Number Six / Aegis Corp.</li>
+<li>IMF: Apogee IMF File Format</li>
+<li>KSM: Ken Silverman's Music Format</li>
+<li>LAA: LucasArts AdLib Audio File Format by LucasArts</li>
+<li>LDS: LOUDNESS Sound System <b>(preliminary)</b></li>
+<li>M&nbsp;&nbsp;: Origin AdLib Music Format</li>
+<li>MAD: Mlat Adlib Tracker</li>
+<li>MID: MIDI Audio File Format</li>
+<li>MKJ: MKJamz by M \ K Productions <b>(preliminary)</b></li>
+<li>MTK: MPU-401 Trakker by SuBZeR0</li>
+<li>RAD: Reality ADlib Tracker by Reality</li>
+<li>RAW: RdosPlay RAW file format by RDOS</li>
+<li>ROL: AdLib Visual Composer by AdLib Inc. <b>(preliminary)</b></li>
+<li>S3M: Screamtracker 3 by Future Crew</li>
+<li>SA2: Surprise! Adlib Tracker 2 by Surprise! Productions</li>
+<li>SAT: Surprise! Adlib Tracker by Surprise! Productions</li>
+<li>SCI: Sierra's AdLib Audio File Format</li>
+<li>SNG: SNGPlay by BUGSY of OBSESSION</li>
+<li>SNG: Faust Music Creator by FAUST</li>
+<li>XAD: eXotic ADlib Format by Riven the Mage</li>
+<li>XMS: XMS-Tracker by MaDoKaN/E.S.G</li>
+</ul>
+
+<p>Not all formats may be implemented on all platforms. This depends mainly on compiler
+facilities. Details are published in the README file, included in the AdPlug library
+distribution.</p>
+</td></tr>
+
+<tr><td>
+<a name="links"><h1>Links:</h1></a>
+<p>Following is a list of websites connected to the AdPlug project or AdLib in general:</p>
+
+<ul>
+<li><a href="http://www.chiptune.de">www.chiptune.de</a> - the world's biggest adlib
+music archive.</li>
+</ul>
+</td></tr>
+
+</table>
+<!--#include virtual="footer.shtml" -->
+</body>
+</html>

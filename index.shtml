@@ -21,7 +21,7 @@ playback.</p>
 
 <p>AdPlug itself is just the backend to many different audio player frontends, which are also being developed
 here. There are plugins for popular audio players, like Winamp and XMMS, as well as stand-alone players for
-many different systems available or in development.</p>
+many different systems available.</p>
 </td></tr>
 
 <tr><td>
@@ -45,7 +45,7 @@ file releases.</p>
 
 <table>
 <tr><td><b>Module:</b></td><td><b>Description:</b></td></tr>
-<tr><td>adplug</td>
+<tr><td>AdPlug core library</td>
 <td><h2>AdPlug library source distribution for all architectures:</h2>
 
 <p>You need this only if you like to write your own AdPlug frontend or have to compile any of the available frontends.</p>
@@ -56,7 +56,7 @@ file releases.</p>
 <li>adplug-*.tar.gz - gzip compressed source</li>
 </ul>
 </td></tr>
-<tr><td>dos</td>
+<tr><td>AdPlay/DOS</td>
 <td><h2>AdPlay/DOS for MS-DOS:</h2>
 
 <p>AdPlay/DOS is AdPlug's MS-DOS based frontend. Sporting an exclusively programmed, highly configurable
@@ -68,18 +68,12 @@ textmode interface, it provides a convenient playback experience.</p>
 <li>adply*s.zip - PKZIP compressed source</li>
 </ul>
 </td></tr>
-<tr><td>linux</td>
+<tr><td>AdPlay/UNIX</td>
 <td><h2>AdPlay/UNIX for UNIX compatible architectures:</h2>
 
-<p>AdPlay/UNIX is a classic UNIX console frontend with all the usual bells and whistles. It is proven to
-work well under the following architectures:</p>
-
-<ul>
-<li>Debian GNU/Linux 2.2 (potato)</li>
-<li>Debian GNU/Linux 3.0 (woody)</li>
-<li>Red Hat Linux 7.1 (seawolf)</li>
-<li>FreeBSD 4.6</li>
-</ul>
+<p>AdPlay/UNIX is a classic UNIX console frontend with all the usual
+bells and whistles. It is proven to work well on many different
+kinds of UNIX flavours.</p>
 
 <p>The following file packages are available:</p>
 <ul>
@@ -87,7 +81,7 @@ work well under the following architectures:</p>
 <li>adplay-*.tar.gz - gzip compressed source</li>
 </ul>
 </td></tr>
-<tr><td>winamp</td>
+<tr><td>Winamp2 plugin</td>
 <td><h2>AdPlug Winamp2 input plugin:</h2>
 
 <p>The AdPlug Winamp2 plugin was the first available frontend for AdPlug and right now, it is the most
@@ -99,6 +93,19 @@ advanced frontend of them all. If you need more information about Winamp, please
 <li>in_adlib-*.zip - PKZIP compressed binary</li>
 <li>in_adlib-*.exe - Win32 self-installing binary</li>
 <li>in_adlib-*_source.zip - PKZIP compressed source</li>
+</ul>
+</td></tr>
+<tr><td>AdPlug/XMMS</td>
+<td><h2>AdPlug XMMS input plugin:</h2>
+
+<p>AdPlug/XMMS is an XMMS input plugin. It supports playback of all
+formats using AdPlug's OPL2 emulator only. If you need more
+information about XMMS, please go to <a href="http://www.xmms.org">www.xmms.org</a>.</p>
+
+<p>The following file packages are available:</p>
+<ul>
+<li>adplug-xmms-*.tar.bz2 - bzip2 compressed source</li>
+<li>adplug-xmms-*.tar.gz - gzip compressed source</li>
 </ul>
 </td></tr>
 </table>

@@ -1,5 +1,5 @@
 files/ExtraSimpleMusic.zip
-     MS
+A    MS
 .XSM
 eXtra Simple Music
 <p>Attached, you should find sample musics + Qbasic source code for

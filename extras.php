@@ -30,7 +30,7 @@ of the included modules relies to their corresponding authors.</td></tr>
 <p>Following is a list of websites connected to the AdPlug project or AdLib in general:</p>
 
 <ul>
-<li><a href="http://www.chiptune.de">www.chiptune.de</a> - the world's biggest adlib
+<li><a href="http://chiptunes.back2roots.org">chiptunes.back2roots.org</a> - the world's biggest adlib
 music archive.</li>
 </ul>
 </td></tr>

@@ -1,0 +1,10 @@
+files/Jozz.zip
+    PM
+.SNG
+Jozz Adlib Music Driver
+<p>JCH sent me this wonderful archive of adlib music made by Johannes
+Bjerregaard (Maniacs of Noise at that time) around 1992. The music was
+written in his own driver routine. A (somewhat buggy) player is
+included in the archive. Nothing more is known about the internals of
+the format. I wish someone would figure it out since the music is
+really wonderful!</p>

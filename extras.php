@@ -32,6 +32,8 @@ of the included modules relies to their corresponding authors.</td></tr>
 <ul>
 <li><a href="http://chiptunes.back2roots.org">chiptunes.back2roots.org</a> - the world's biggest adlib
 music archive.</li>
+<li><a href="http://adlib.superfighter.com">adlib.superfighter.com</a> - has very nice .raw rips of some
+really old gems.</li>
 </ul>
 </td></tr>
 

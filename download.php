@@ -80,10 +80,10 @@ kinds of UNIX flavours.</p>
 <li>adplay-*.tar.gz - gzip compressed source</li>
 </ul>
 </td></tr>
-<tr><td>Winamp2 plugin</td>
-<td><h2>AdPlug Winamp2 input plugin:</h2>
+<tr><td>AdPlug/Winamp</td>
+<td><h2>AdPlug Winamp input plugin:</h2>
 
-<p>The AdPlug Winamp2 plugin was the first available frontend for AdPlug and right now, it is the most
+<p>The AdPlug Winamp plugin was the first available frontend for AdPlug and right now, it is the most
 advanced frontend of them all. If you need more information about Winamp, please go to
 <a href="http://www.winamp.com">www.winamp.com</a>.</p>
 

@@ -1,9 +1,7 @@
 <?php
-	/***** Website configuration *****/
+	include("site_config.php");
 
-	// The document-root directory for this website. Must be an absolute
-	// path specification!
-	$docroot = "/~simon/adplug-website/";
+	/***** Website configuration *****/
 
 	// Default page title, prepended to all custom titles.
 	$pagetitle = "AdPlug - ";

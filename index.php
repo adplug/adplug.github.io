@@ -55,7 +55,7 @@ anyway. As of now, the following formats are supported:</p>
 <li>MTK: MPU-401 Trakker by SuBZeR0</li>
 <li>RAD: Reality ADlib Tracker by Reality</li>
 <li>RAW: RdosPlay RAW file format by RDOS</li>
-<li>ROL: AdLib Visual Composer by AdLib Inc. <b>(preliminary)</b></li>
+<li>ROL: AdLib Visual Composer by AdLib Inc.</li>
 <li>S3M: Screamtracker 3 by Future Crew</li>
 <li>SA2: Surprise! Adlib Tracker 2 by Surprise! Productions</li>
 <li>SAT: Surprise! Adlib Tracker by Surprise! Productions</li>

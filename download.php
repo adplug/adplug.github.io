@@ -47,8 +47,8 @@ want/have to recompile any of the available frontends.</p>
 <li>adplug-*.tar.gz - gzip compressed source</li>
 <li>adplg*s.zip - Stripped-down source version for DOS users only
 (PKZIP compressed)</li>
-<li>adplug*.zip - Precompiled binary (w/ i586 optimization) for DOS
-users (PKZIP compressed)</li>
+<li>adplug*.zip - Precompiled binary (unoptimized) for DOS users
+(PKZIP compressed)</li>
 </ul>
 </td></tr>
 <tr><td>AdPlay/DOS</td>
@@ -105,6 +105,23 @@ information about XMMS, please go to <a href="http://www.xmms.org">www.xmms.org<
 <ul>
 <li>adplug-xmms-*.tar.bz2 - bzip2 compressed source</li>
 <li>adplug-xmms-*.tar.gz - gzip compressed source</li>
+</ul>
+</td></tr>
+<tr><td>Database</td>
+<td><h2>Official AdPlug Database:</h2>
+
+<p>The official AdPlug database is the authoritative source for AdPlug to get additional, essential
+replay information about problematic files. Some file formats contain too few information about a
+song for it to be correctly replayed by AdPlug. To counter this, the AdPlug database was created.</p>
+
+<p>The official AdPlug database at one day should contain the information needed about all problematic
+files. If you got a problematic file that's not covered in this database, please file a bug report
+against the database and include either the problematic file itself or the corresponding database
+entry.</p>
+
+<p>The following file packages are available:</p>
+<ul>
+<li>adplug.db - Uncompressed database file</li>
 </ul>
 </td></tr>
 </table>

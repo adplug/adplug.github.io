@@ -78,8 +78,12 @@ textmode interface, it provides a convenient playback experience.</p>
 
 <p>The following file packages are available:</p>
 <ul>
-<li>adplay*.zip - PKZIP compressed binary</li>
+<li>adplay*.zip - PKZIP compressed binary (i386 protected mode)</li>
 <li>adply*s.zip - PKZIP compressed source</li>
+<li>timer*.zip - Watcom C/C++ 11.x Timer Library (needed by
+adply*s.zip)</li>
+<li>window*.zip - Watcom C/C++ 11.x Textmode Window Classes (needed by
+adply*s.zip)</li>
 </ul>
 </td></tr>
 <tr><td>AdPlay/UNIX</td>

@@ -1,0 +1,8 @@
+files/AccoladeMidi.zip
+    PM
+.MUS
+Accolade MIDI File Format
+This format was used in Accolade's game "Speed Racer: The Challenge of
+Racer X". It seems to be a MIDI clone. Included in the archive are a
+MIDI to .MUS converter, a .MUS player and the music files from the
+game.

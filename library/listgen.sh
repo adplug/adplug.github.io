@@ -9,6 +9,7 @@
 
 DB_PATTERN=db/*.txt
 DB_LIST=list.php
+IFS=
 
 #################################################################
 
@@ -20,7 +21,7 @@ GetEntry ()
     read desc
 
     cat >>${DB_LIST} <<EOF
-<tr><td><pre>${flags}</pre></td><td><pre>${extension}</pre></td>
+<tr><td><pre><b>${flags}</b></pre></td><td><pre>${extension}</pre></td>
 <td><a href="entry.php?file=${db_file}">${desc}</a></td></tr>
 
 EOF

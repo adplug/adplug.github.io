@@ -15,7 +15,7 @@
 <tr><td>AdPlug/Winamp</td><td align=right><b>1.6</b></td></tr>
 <tr><td>AdPlay/DOS</td><td align=right><b>1.5</b></td></tr>
 <tr><td>AdPlay/UNIX</td><td align=right><b>1.4</b></td></tr>
-<tr><td>AdPlug/XMMS</td><td align=right><b>1.1</b></td></tr>
+<tr><td>AdPlug/XMMS</td><td align=right><b>1.2</b></td></tr>
 </table>
 </center>
 </td></tr>

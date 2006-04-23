@@ -6,9 +6,4 @@ Loudness
 which he sent to me. In this package, there's also a file readres.c,
 which extracts the music modules from the Tyrian game's resource files
 and a file fixem.c, which is supposed to fix some broken Loudness
-files. I would be very happy if this file format would finally be
-supported by AdPlug, some day!</p>
-
-<p>If anyone knows anything about this format, its authors,
-people/companies who used it, or anything else, PLEASE contact me at
-dn.tlp@gmx.net!</p>
+files.</p>

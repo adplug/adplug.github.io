@@ -10,14 +10,17 @@
 <table class="page">
 <tr><td>
 <h1>Description:</h1>
-<p>AdPlug is a free, cross-platform, hardware independent AdLib sound player library, mainly written in C++ and
-released under the LGPL. AdPlug plays sound data, originally created for the AdLib (OPL2) audio board, directly
-from its original format on top of an OPL2 emulator or by using the real hardware. No OPL chip is required for
-playback.</p>
+<p>AdPlug is a free, cross-platform, hardware independent AdLib sound
+player library, mainly written in C++ and released under the
+LGPL. AdPlug plays sound data, originally created for the AdLib (OPL2)
+and Sound Blaster (Dual OPL2/OPL3) audio boards, directly from its
+original format on top of an emulator or by using the real
+hardware. No OPL chip is required for playback.</p>
 
-<p>AdPlug itself is just the backend to many different audio player frontends, which are also being developed
-here. There are plugins for popular audio players, like Winamp and XMMS, as well as stand-alone players for
-many different systems available.</p>
+<p>AdPlug itself is just the backend to many different audio player
+frontends, which are also being developed here. There are plugins for
+popular audio players, like Winamp and XMMS, as well as stand-alone
+players for many different systems available.</p>
 </td></tr>
 
 <tr><td>
@@ -53,9 +56,11 @@ anyway. As of now, the following formats are supported:</p>
 <li>MAD: Mlat Adlib Tracker</li>
 <li>MID: MIDI Audio File Format</li>
 <li>MKJ: MKJamz by M \ K Productions <b>(preliminary)</b></li>
+<li>MSC: AdLib MSCplay</li>
 <li>MTK: MPU-401 Trakker by SuBZeR0</li>
 <li>RAD: Reality ADlib Tracker by Reality</li>
 <li>RAW: RdosPlay RAW file format by RDOS</li>
+<li>RIX: Softstar RIX OPL Music Format</li>
 <li>ROL: AdLib Visual Composer by AdLib Inc.</li>
 <li>S3M: Screamtracker 3 by Future Crew</li>
 <li>SA2: Surprise! Adlib Tracker 2 by Surprise! Productions</li>
@@ -68,10 +73,6 @@ anyway. As of now, the following formats are supported:</p>
 <li>XMS: XMS-Tracker by MaDoKaN/E.S.G</li>
 <li>XSM: eXtra Simple Music by Davey W Taylor</li>
 </ul>
-
-<p>Not all formats may be implemented on all platforms. This depends mainly on compiler
-facilities. Details are published in the README file, included in the AdPlug library
-distribution.</p>
 </td></tr>
 
 </table>

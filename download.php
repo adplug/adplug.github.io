@@ -113,6 +113,7 @@ http://www.informatik.uni-oldenburg.de/~dyna/adplug/</a>
 <li>in_adlib-*.zip - PKZIP compressed binary</li>
 <li>in_adlib-*.exe - Win32 self-installing binary</li>
 <li>in_adlib-*_source.zip - PKZIP compressed source</li>
+<li>in_adlib-*.tar.gz - gzip compressed source</li>
 </ul>
 </td></tr>
 <tr><td>AdPlug/XMMS</td>

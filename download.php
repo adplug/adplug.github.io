@@ -143,7 +143,8 @@ entry.</p>
 
 <p>The following file packages are available:</p>
 <ul>
-<li>adplug.db - Uncompressed database file</li>
+<li>adplug.db - uncompressed database file</li>
+<li>adplugdb-*.tar.gz - gzip compressed database package</li>
 </ul>
 </td></tr>
 </table>

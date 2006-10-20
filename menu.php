@@ -33,8 +33,12 @@
 <tr><td>
 <center>
 <a href="http://sourceforge.net">
-<img src="http://sourceforge.net/sflogo.php?group_id=28079" alt="SourceForge Logo">
-</a>
+<img src="http://sourceforge.net/sflogo.php?group_id=28079"
+alt="SourceForge Logo" border="0">
+</a><br/>
+<a href="http://sourceforge.net/donate/index.php?group_id=28079"><img
+src="http://images.sourceforge.net/images/project-support.jpg"
+width="88" height="32" border="0" alt="Support This Project" /> </a>
 </center>
 </td></tr>
 

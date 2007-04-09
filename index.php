@@ -37,6 +37,7 @@ anyway. As of now, the following formats are supported:</p>
 
 <ul>
 <li>A2M: AdLib Tracker 2 by subz3ro</li>
+<li>ADL: Westwood ADL File Format</li>
 <li>AMD: AMUSIC Adlib Tracker by Elyssis</li>
 <li>BAM: Bob's Adlib Music Format</li>
 <li>CFF: BoomTracker 4.0 by CUD</li>

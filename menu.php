@@ -32,9 +32,10 @@
 
 <tr><td>
 <center>
-<a href="http://sourceforge.net">
-<img src="http://sourceforge.net/sflogo.php?group_id=28079"
-alt="SourceForge Logo" border="0">
+<a href="http://sourceforge.net/projects/adplug">
+<img src="http://sflogo.sourceforge.net/sflogo.php?group_id=28079&amp;type=9"
+width="80" height="15" alt="SourceForge Logo" alt="Get AdPlug at
+SourceForge.net. Fast, secure and Free Open Source software downloads" />
 </a><br/>
 <a href="http://sourceforge.net/donate/index.php?group_id=28079"><img
 src="http://images.sourceforge.net/images/project-support.jpg"

@@ -12,32 +12,17 @@
 <a name="download"><h1>Download:</h1></a>
 
 <p>To download AdPlug, please go to the
-<a
-href="http://sourceforge.net/project/showfiles.php?group_id=28079">download
-page</a>. Be sure to read the following download instructions for your
-architecture, at least once!</p>
+<a href="http://sourceforge.net/project/showfiles.php?group_id=28079">download
+page</a>. Be sure to read the following download instructions at least
+once.</p>
 </td></tr>
 
 <tr><td>
 <h1>Download instructions:</h1>
 
-<h2 style="color:red">ATTENTION: Important update to the Winamp input
-plugin release system!</h2>
-
-<p style="color:red">All changes to these instructions are designated
-in a red font (like this paragraph). Be sure to read them!</p>
-
 <p>On the download page, first locate your desired AdPlug module, then
-select the version, you like to download.</p>
-
-<p>There may be multiple files released with your selected
-version. This is either just the same release packaged in different
-archive formats, the respective binary or source package or a
-specially packaged version of the binary or source package, for that
-particular architecture only! You can spot the right archive for you
-either by examining the filename or by looking at the following table,
-which gives an overview of the available modules and file
-releases.</p>
+select the version, you like to download. The following table gives an
+overview of the available modules and file releases.</p>
 
 <table>
 <tr><td><b>Module:</b></td><td><b>Description:</b></td></tr>
@@ -90,23 +75,22 @@ kinds of UNIX flavours.</p>
 <tr><td>AdPlug/Winamp</td>
 <td><h2>AdPlug Winamp input plugin:</h2>
 
-<p>The AdPlug Winamp plugin was the first available frontend for AdPlug and right now, it is the most
-advanced frontend of them all. If you need more information about Winamp, please go to
+<p>The AdPlug Winamp plugin was the first available frontend for
+AdPlug and right now, it is the most advanced frontend of them
+all. Winamp is available at
 <a href="http://www.winamp.com">www.winamp.com</a>.</p>
 
-<p style="color:red">Since version 1.6 of the plugin, no binary
-versions are distributed through SourceForge's File Release System!
-This is because binary versions are now compiled including the latest
-OPL2 emulator from the MAME distribution for the best emulation
-quality. These later versions bear a non OSI compliant license and
-thus cannot be distributed through SourceForge.</p>
+<p>Since version 1.6 of the plugin, no binary versions are distributed
+through SourceForge's File Release System! This is because binary
+versions are now compiled including the latest OPL2 emulator from the
+MAME distribution for the best emulation quality. These later versions
+bear a non OSI compliant license and thus cannot be distributed
+through SourceForge.</p>
 
-<p style="color:red">Another website has been created however, where
-these binary versions can be downloaded, until the license issues have
-been resolved. If you want the binary versions, please go to:</p>
+<p>Another website has been created, where these binary versions can
+be downloaded. If you want the binary versions, please go to:</p>
 
-<a href="http://www.informatik.uni-oldenburg.de/~dyna/adplug/">
-http://www.informatik.uni-oldenburg.de/~dyna/adplug/</a>
+<a href="http://www.shikadi.net/adplug/">http://www.shikadi.net/adplug/</a>
 
 <p>The following file packages are available:</p>
 <ul>
@@ -120,8 +104,8 @@ http://www.informatik.uni-oldenburg.de/~dyna/adplug/</a>
 <td><h2>AdPlug XMMS input plugin:</h2>
 
 <p>AdPlug/XMMS is an XMMS input plugin. It supports playback of all
-formats using AdPlug's OPL2 emulator only. If you need more
-information about XMMS, please go to <a href="http://www.xmms.org">www.xmms.org</a>.</p>
+formats using AdPlug's OPL2 emulator only. XMMS is available
+at <a href="http://www.xmms.org">www.xmms.org</a>.</p>
 
 <p>The following file packages are available:</p>
 <ul>
@@ -130,16 +114,17 @@ information about XMMS, please go to <a href="http://www.xmms.org">www.xmms.org<
 </ul>
 </td></tr>
 <tr><td>Database</td>
-<td><h2>Official AdPlug Database:</h2>
+<td><h2>AdPlug Database:</h2>
 
-<p>The official AdPlug database is the authoritative source for AdPlug to get additional, essential
-replay information about problematic files. Some file formats contain too few information about a
-song for it to be correctly replayed by AdPlug. To counter this, the AdPlug database was created.</p>
+<p>The AdPlug database is the source for AdPlug to get essential
+replay information about problematic files. Some file formats
+(eg. Apogee's IMF format) contain too few information about a song for
+it to be correctly replayed by AdPlug. To counter this, the AdPlug
+database was created.</p>
 
-<p>The official AdPlug database at one day should contain the information needed about all problematic
-files. If you got a problematic file that's not covered in this database, please file a bug report
-against the database and include either the problematic file itself or the corresponding database
-entry.</p>
+<p>If you have a problematic file that's not covered in this database,
+please file a bug report against the database and include either the
+problematic file itself or the corresponding database entry.</p>
 
 <p>The following file packages are available:</p>
 <ul>

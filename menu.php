@@ -35,7 +35,8 @@
 <a href="http://sourceforge.net/projects/adplug">
 <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=28079&amp;type=9"
 width="80" height="15" alt="SourceForge Logo" alt="Get AdPlug at
-SourceForge.net. Fast, secure and Free Open Source software downloads" />
+SourceForge.net. Fast, secure and Free Open Source software downloads"
+border="0" />
 </a><br/>
 <a href="http://sourceforge.net/donate/index.php?group_id=28079"><img
 src="http://images.sourceforge.net/images/project-support.jpg"

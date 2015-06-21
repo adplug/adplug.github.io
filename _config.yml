@@ -1,0 +1,11 @@
+collections:
+  library_formats:
+    output: true
+    permalink: /library/entry/:path.html
+
+defaults:
+ - scope:
+     path: ""
+     type: library_formats
+   values:
+     layout: library_entry

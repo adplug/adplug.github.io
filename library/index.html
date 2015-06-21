@@ -34,8 +34,22 @@ href="mailto:dn.tlp@gmx.net">Simon Peter</a>.</p>
 <h1>AdLib file formats at a glance:</h1>
 <p>This is the whole table of file formats, currently in the library.</p>
 
-{% include_relative legend.html %}
-{% include_relative list.html %}
+{% include library_legend.html %}
+<table>
+	<tr>
+		<td><pre><b>A DEPMS</b></pre></td>
+		<td><b>Extension</b></td>
+		<td><b>File Format</b></td>
+	</tr>
+	{% for format in site.library_formats %}
+		<tr>
+			<td><pre><b>{{ format.flags }}</b></pre></td>
+			<td><pre>{{ format.extension }}</pre></td>
+			<td><a href="{{ format.url }}">{{ format.desc }}</a></td>
+		</tr>
+		{{ format.title }}
+	{% endfor %}
+</table>
 
 </td></tr>
 

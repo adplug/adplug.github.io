@@ -1,7 +1,0 @@
-files/ExtraSimpleMusic.zip
-A    MS
-.XSM
-eXtra Simple Music
-<p>Attached, you should find sample musics + Qbasic source code for
-the XSM adlib format (which stands for "eXtra Simple Music"). I just
-stumbled across this one in my searching.</p>

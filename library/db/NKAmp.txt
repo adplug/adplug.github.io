@@ -1,5 +1,0 @@
-files/NKAmp.zip
-    PMS
-.NKA
-NK-Amp 1.0
-File format by Nick Kochakian, supposedly modeled after RAD.

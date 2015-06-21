@@ -1,7 +1,0 @@
-files/FMSong.zip
-  DEPMS
-.FMS
-FM-Song
-Attached are sample music, tracker, two players, sources and file
-format specification for the "FM-Song" format (.FMS). Once again, it's
-Q-Basic - so should not be too difficult to work with. :)

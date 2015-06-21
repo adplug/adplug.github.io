@@ -1,6 +1,0 @@
-files/ArkhamMasterTracker24.zip
-  DEPM
-.MTR
-Arkham Master Tracker 2.4
-<p>One of the more known formats. Though no one really wrote a player
-for it yet...</p>

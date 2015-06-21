@@ -1,9 +1,0 @@
-files/Loudness.zip
-A   P S
-.LDS
-Loudness
-<p>Phil Hassey once hacked together a preliminary Loudness player,
-which he sent to me. In this package, there's also a file readres.c,
-which extracts the music modules from the Tyrian game's resource files
-and a file fixem.c, which is supposed to fix some broken Loudness
-files.</p>

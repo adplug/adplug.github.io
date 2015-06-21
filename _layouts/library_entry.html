@@ -1,0 +1,30 @@
+---
+---
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+{% include header.html doctitle="AdLib file formats reference library" %}
+
+<body>
+{% include menu.html %}
+<table class="page">
+
+<tr><td>
+<h1>AdLib file formats reference library entry:</h1>
+
+{% include library_legend.html %}
+
+<table width=100%>
+<tr><td width=100%><h1>{{ page.desc }}</h1></td>
+<td><pre>{{ page.extension }}</pre></td>
+<td><pre>{{ page.flags }}</pre></td>
+<td><a href="/library/files/{{ page.filename }}">Download</a></td></tr>
+<tr><td colspan=4>{{ page.content }}</td></tr>
+</table>
+
+</td></tr>
+</table>
+{% include footer.html %}
+</body>
+</html>

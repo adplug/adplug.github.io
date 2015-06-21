@@ -1,5 +1,0 @@
-files/SurpriseAdlibTracker2.zip
-A DEPM
-.SA2
-Surprise! Adlib Tracker 2.00
-<p>Adlib Tracker with instrument arpeggiators.</p>

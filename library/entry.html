@@ -1,22 +1,23 @@
+---
+---
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <?php require("../config.php"); ?>
 
 <html>
 
+{% include header.html variable-doctitle="AdLib file formats reference library" %}
 <?php
-	$doctitle = "AdLib file formats reference library";
-	include("../header.php");
 	$entry = file($_GET[file]);
 ?>
 
 <body>
-<?php include("../menu.php"); ?>
+{% include menu.html %}
 <table class="page">
 
 <tr><td>
 <h1>AdLib file formats reference library entry:</h1>
 
-<?php include("legend.php"); ?>
+{% include_relative legend.html %}
 
 <table width=100%>
 <tr><td width=100%><h1><?php echo(trim($entry[3])); ?></h1></td>
@@ -35,6 +36,6 @@ foreach($entry as $key => $desc) {
 
 </td></tr>
 </table>
-<?php virtual("../footer.shtml"); ?>
+{% include footer.html %}
 </body>
 </html>

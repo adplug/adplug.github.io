@@ -8,7 +8,7 @@
 # Configuration variables
 
 DB_PATTERN=db/*.txt
-DB_LIST=list.php
+DB_LIST=list.html
 IFS=
 
 #################################################################

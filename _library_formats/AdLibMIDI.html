@@ -1,13 +1,19 @@
 ---
-filename: AD-PROG
-flags: "    PM"
-extension: .MDI
-desc: Ad Lib MIDI File Format
+filename: AdLibMIDI.zip
+flags: "AD PMS"
+extension: .MUS
+desc: AdLib MIDI Format
 ---
-<p>The MDI format was created by Ad Lib, Inc. to upgrade from ROL
-format. It uses the MIDI structure but incorporates OPL2 commands that
-allow it to store instrument data and change modes, similar to how CMF
-works.</p>
+<p>The AdLib MIDI Format is an Ad Lib music format, based on the standard
+MIDI format. It is derived from ROL Format and have compatible specification
+for playback. The format has a custom header, but the actual music data
+mostly in standard MIDI notation. Despite this, it appears that it was never
+intended to be played on a MIDI device, as the patch numbers refer to indices
+into a companion OPL instrument bank in AdLib Timbre Bank Format.</p>
 
-<p>Some documentation about the format is available
-<a href="http://www.vgmpf.com/Wiki/index.php?title=MDI">here</a>.</p>
+<p>In this respect it is similar to the CMF Format, which also stores OPL
+music in MIDI notation, but unlike CMF this format keeps the instruments in a
+separate file.</p>
+
+<p>Format documentation is available
+<a href="http://www.shikadi.net/moddingwiki/AdLib_MIDI_Format">here</a>.</p>

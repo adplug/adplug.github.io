@@ -40,4 +40,10 @@ h2 {
 ul {
 	font-family: monospace;
 	font-size: 12px;
+	padding-left: 1.5em;
+}
+
+.news-article {
+	margin-left: 2.0em;
+	margin-bottom: 2.0em;
 }

@@ -41,7 +41,8 @@ href="mailto:dn.tlp@gmx.net">Simon Peter</a>.</p>
 		<td><b>Extension</b></td>
 		<td><b>File Format</b></td>
 	</tr>
-	{% for format in site.library_formats %}
+	{% assign sorted = site.library_formats | sort: 'extension' %}
+	{% for format in sorted %}
 		<tr>
 			<td><pre><b>{{ format.flags }}</b></pre></td>
 			<td><pre>{{ format.extension }}</pre></td>

@@ -1,9 +1,80 @@
 ---
 filename: Palladix.zip
-flags: "     M "
+flags: "A    M "
 extension: .PLX
-desc: Palladix System
+desc: Palladix Sound System
 ---
-<p>This music format is used in Logical game by Rainbow Arts Software.</p>
+<p>This music format is used in Logical game by Rainbow Arts Software,
+  as well as a few others of the time.</p>
 
-<p>The archive contains test music files.</p>
+<p>Here is a description of the file format, as reverse-engineered from
+the Logical game:</p>
+
+<pre>
+Header
+------
+Bytes 0-2: 'PLX' header
+
+Byte 3: Bottom bit selects rhythm mode (on if set). All other bits MBZ.
+If bigger than 2, it seems to bail out.
+
+Byte 4: Scale factor for timer info. Result = Timer * (scale_factor * 64)
+
+Bytes 5-6 (WORD): Timer info (programmed to PIT via OUT 43h, 36h and then OUT 40h, low byte, OUT 40h, high byte)
+
+Bytes 7-16: Array of 9 WORDS: Per-channel note data offset pointers from beginning of file
+	If offset pointer is 0, skip this channel
+
+Bytes 17...: Instruments
+
+Instruments
+-----------
+Byte 0: AdLib operator data for index base C0h. Change index from base, according to channel number (see OPL2 manual).
+Byte 1: ? (1h in my first investigation)
+Bytes 2..6: AdLib modulator data for index base 20h, 40h, 60h, 80h, E0h.
+Bytes 7..11: AdLib carrier data for index base 23h, 43h, 63h, 83h, E3h.
+
+Per-channel note data
+---------------------
+BYTE: Contains flags
+	Bit 0: Set instrument
+		Load instrument to AdLib operators from file offset, specified in next WORD
+	Bit 1: Set volume
+		load following BYTE, store in chan_init[channel#], and in 43h + channel# (plus other stuff, depending on whether Algorithm is 0 for this channel)
+	Bit 2: Key off
+		Rewrite frequency block (B0h + channel#) without "key on" bit
+	Bit 3: Set note (exclusive with "set frequency")
+		Load next BYTE, which is the note# (must be between 0..95). Look up resulting frequency in array.
+		AX = Get state of both frequency registers (A0 and B0 + chan#)
+	Bit 4: Set frequency (exclusive with "set note")
+		Load following WORD and set directly into both frequency registers
+	Bit 5: Key on
+		If "key on" is set, we set the "key on" bit for the channel
+	Bit 6: Set global tempo
+		Tempo loaded from next WORD and stored in timer
+	Bit 7: Skip. All other bits MBZ (BYTE = 80h)
+
+If BYTE = 0h, then this channel resets (restart at pattern offset 0, key off)
+
+Notes
+-----
+On init, the playroutine:
+ * Sets WAVE SELECT ENABLE in OPL2 (index 1, value 20h)
+ * Resets all AdLib registers according to the data in
+   opl2_init_regs.bin (found in plx.cpp in AdPlug source tree)
+   * Byte x at offset y indicates that value x should be written into AdLib at index y, unless x == FFh, in which case we skip it
+
+* Sets rhythm mode according to Byte 3.
+
+* Writes 3F to all AdLib operators.
+
+* Sets up timer according to timer info and scale factor
+
+* Starts playing song in interrupt handler
+  For all active channels:
+    Read per-channel note data
+      Reads the flag byte, processes flags from bottom to top, reading additional BYTEs and WORDs, depending on flags
+    Read BYTE that indicates how many pattern positions to skip
+</pre>
+
+<p>The archive contains test music files, ripped from the Logical game.</p>

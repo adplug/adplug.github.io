@@ -1,4 +1,41 @@
 <div>
+	<strong>AdPlug core 2.4 released</strong>
+	&nbsp;&nbsp;&nbsp;
+	<small class="date">2025-04-06</small>
+	<div class="news-article">
+		<ul>
+<li>Bug fixes:<br/>
+  <ul>
+  <li>Many fixes, cleanup, and refactoring across all players based on
+    fuzzing tests. Huge thanks to Alexander Miller for these. There
+    are too many to list here - please read the commit log.</li>
+  <li>Fixes to SurroundOPL getchip(), fixing missing note problems</li>
+  <li>Many code typo fixes (thanks to luz paz for these).</li>
+  <li>Make SOP player endian aware and many further fixes across players (thanks to Stian Sebastian Skjelstad)</li>
+  <li>Fix RAD2 player crashes with files referencing unused instruments</li>
+  <li>Added stress tests and many build fixes across platforms (thanks
+  to Stas'M)</li>
+  </ul>
+<li>New formats:<br/>
+  <ul>
+  <li>MUS,ADL: Add support for Coktel Vision game music files to Visual Composer player (thanks to Stas'M)</li>
+  <li>MID: Detect MIDI Type 1 multi-track files (thanks to Stian Sebastian Skjelstad)</li>
+  <li>PIS: Beni Tracker (thanks to Dmitry Smagin)</li>
+  <li>MTR: Master Tracker Loader (thanks to Dmitry Smagin)</li>
+  <li>A2M: Add new player for A2M and A2T (versions 1-14) (thanks to Dmitry Smagin)</li>
+  <li>D00: Add support for reheadered D00 songs (thanks to Misty De Méo)</li>
+  <li>PLX: PALLADIX Sound System</li>
+  <li>LD0: Add support for old LOUDNESS files that don't have MIDI
+  instrument data</li>
+  </ul>
+<li>Updated NukedOPL to master 730f8c238a152cb3314e46919789a666c9d81d82</li>
+<li>Updated ADL player to ScummVM version from Dec 7, 2020</li>
+		</ul>
+		For download links, please visit GitHub
+		<a href="https://github.com/adplug/adplug/releases/tag/adplug-2.4">AdPlug release</a>.
+	</div>
+</div>
+<div>
 	<strong>AdPlug core 2.3.3 released</strong>
 	&nbsp;&nbsp;&nbsp;
 	<small class="date">2020-06-10</small>
